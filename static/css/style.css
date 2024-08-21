@@ -1,0 +1,1154 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  text-decoration: none !important;
+  color: black !important;
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+  background-color: transparent;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.vverx {
+  position: relative;
+  background: #E4F4CF;
+  width: 100%;
+  height: 38px;
+  margin-left: 0px;
+}
+.vverx .kryg {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 13px;
+  background: #56BA28;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.vverx__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.vverx__text1 {
+  font-family: Manrope;
+  font-size: 14px;
+  margin-left: 47px;
+  margin-top: 10px;
+  margin-right: 500px;
+  width: 180px;
+}
+.vverx__text2 {
+  font-family: Manrope;
+  font-size: 14px;
+  margin-top: 11px;
+  margin-right: 12px;
+  width: 160px;
+}
+.vverx__text3 {
+  font-family: Manrope;
+  font-size: 14px;
+  margin-top: 11px;
+  margin-right: 0px;
+  width: 185px;
+}
+.vverx__img {
+  margin-right: 30px;
+  margin-top: 5px;
+  width: 28px;
+  height: 28px;
+}
+
+.pryam {
+  margin-left: 30px;
+  margin-top: 27px;
+  background: #A7E15C;
+  border-radius: 13px;
+  width: 171px;
+  height: 56px;
+  margin-right: 36px;
+}
+
+.container__img {
+  margin-top: 44px;
+  margin-right: 60px;
+  width: 16px;
+  height: 16px;
+}
+.container__text {
+  margin-top: 45px;
+  margin-right: 32px;
+  font-family: Inter;
+  font-size: 14px;
+}
+.container__text1 {
+  margin-top: 40px;
+  margin-right: 26px;
+  font-family: Manrope;
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: -20px;
+}
+.container__button {
+  background-color: #6CA715;
+  border-radius: 6px;
+  margin-top: 36px;
+  margin-right: -40px;
+}
+
+.section2 {
+  margin-left: 30px;
+}
+.section2__text1 {
+  font-family: Manrope;
+  font-size: 16px;
+  margin-top: 51px;
+  margin-bottom: 10px;
+}
+.section2__text2 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.section2__text3 {
+  font-family: Manrope;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.section2__fil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  color: #333333;
+  width: 239px;
+  height: 41px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 0px;
+}
+.section2__txt {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.section2__img {
+  margin-right: 40px;
+}
+.section2__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 63px;
+  width: 1150px;
+}
+
+.btnn {
+  width: 203px;
+  height: 44px;
+  background-color: #6CA715;
+  border-radius: 6px;
+  color: #ffffff;
+  border-color: #6CA715;
+}
+
+.section3 {
+  margin-left: 20px;
+  position: relative;
+}
+.section3__b {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.section3__img {
+  width: 370.28px;
+  height: 285.58px;
+  border-radius: 6px 6px 0px 0px;
+}
+.section3__text1 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+  margin-right: 10px;
+  padding-left: 13.86px;
+  margin-top: -7px;
+}
+.section3__text2 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2D262C;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+.section3__text3 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+  margin-right: 30px;
+  margin-top: -7px;
+}
+.section3__card {
+  background: #F1F1F1;
+  width: 370.16px;
+  height: 112.26px;
+  border-radius: 0px 0px 6px 6px;
+  padding-left: 13.86px;
+}
+.section3__card-text1 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6F6F6F;
+  padding-top: 15px;
+  margin-bottom: 2px;
+}
+.section3__card-text2 {
+  font-family: Manrope;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2D262C;
+}
+.section3__card-text3 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 130px;
+}
+.section3__raschet {
+  position: relative;
+  z-index: 1;
+  width: 390px;
+}
+.section3__raschet__text {
+  margin-left: 37px;
+}
+.section3__raschet__text img {
+  width: 83px;
+  height: 83px;
+}
+.section3__raschet__text1 {
+  position: absolute;
+  font-family: Manrope;
+  font-size: 34px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: -815px;
+  width: 222px;
+}
+.section3__raschet__text2 {
+  position: absolute;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: -690px;
+  width: 222px;
+}
+.section3__raschet__text3 {
+  position: absolute;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: -555px;
+  width: 250px;
+}
+.section3__raschet__text4 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  color: #CCCBCB;
+  margin-left: 16px;
+  margin-top: 5px;
+}
+.section3__raschet__text5 {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-left: 16px;
+  margin-top: -9px;
+}
+.section3__raschet__block {
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  width: 292px;
+  height: 62px;
+}
+.section3__raschet__block1 {
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  width: 292px;
+  height: 98px;
+  margin-top: 17px;
+  margin-bottom: 12px;
+}
+.section3__xit {
+  background: rgba(50, 205, 50, 0.8);
+  border-radius: 6px;
+  width: 77.2px;
+  height: 17.73px;
+  margin-top: -273.58px;
+  font-family: Manrope;
+  font-size: 10px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 0.9;
+  position: absolute;
+  margin-left: 11.88px;
+}
+.section3__novinka {
+  background: #7211D2;
+  border-radius: 6px;
+  width: 62.35px;
+  height: 17.73px;
+  margin-top: -273.58px;
+  font-family: Manrope;
+  font-size: 10px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 0.6;
+  position: absolute;
+  margin-left: 11.88px;
+}
+.section3__button {
+  background-color: #4b4747;
+  border-radius: 6px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  width: 292px;
+  height: 47px;
+  border-color: #4b4747;
+}
+
+.hr {
+  width: 345.41px;
+  border: 1px #000000;
+  padding-top: 0px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.hr1 {
+  width: 1168px;
+  border: 1px #DCDCDC;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.test2hr {
+  width: 151px;
+  border: 1px #000000;
+  padding-top: 0px;
+  margin-top: -70px;
+  margin-left: 20px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.pagination {
+  margin-left: 0px;
+  margin-top: 40px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+.pagination a.active {
+  background-color: #6CA715;
+  color: white;
+  border-radius: 6px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.section4 {
+  margin-top: 50px;
+}
+.section4 h1 {
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 700;
+  color: #5A5A5A;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.section4__text1 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+.section4__text2 {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  text-align: justify;
+}
+.section4__text3 {
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  text-align: justify;
+  margin-top: 70px;
+  margin-left: -20px;
+}
+.section4__block {
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 64px;
+}
+.section4__block1 {
+  width: 329px;
+}
+.section4__prym {
+  width: 1169px;
+  height: 149px;
+  background: #CBEE66;
+  border-radius: 12px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 51px;
+  margin-right: 200px;
+  border-color: #CBEE66;
+}
+.section4__prym__text {
+  margin-top: 25px;
+  margin-left: 32px;
+  line-height: 32.5px;
+}
+.section4__button {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  margin-top: 54px;
+  color: #333333;
+  margin-left: 140px;
+  width: 240px;
+  height: 43px;
+}
+.section4__text {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  width: 1168px;
+  text-align: justify;
+  margin-top: 53px;
+  margin-bottom: 81px;
+}
+
+.spisok {
+  list-style-type: disc;
+}
+
+.section5__txt1 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 26px;
+  margin-left: 18px;
+}
+.section5__txt2 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 23.5px;
+}
+.section5__block {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12px;
+  width: 1160px;
+}
+.section5__block__txt {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+}
+
+.pryam1 {
+  background: #D9D9D9;
+  border-radius: 10px;
+  width: 176px;
+  height: 56px;
+  margin-right: 36px;
+}
+
+.sec1test2 {
+  background: #F7FF96;
+}
+
+.sec1test2vverx__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sec1test2vverx__text1 {
+  font-family: Manrope;
+  font-size: 14px;
+  margin-left: 47px;
+  margin-top: 10px;
+  margin-right: 0px;
+  width: 180px;
+}
+.sec1test2vverx__text2 {
+  font-family: Manrope;
+  font-size: 14px;
+  margin-top: 11px;
+  margin-right: 12px;
+  width: 160px;
+}
+.sec1test2vverx__text3 {
+  font-family: Manrope;
+  font-size: 14px;
+  margin-top: 11px;
+  margin-right: 0px;
+  width: 185px;
+}
+.sec1test2vverx__img {
+  margin-right: 30px;
+  margin-top: 5px;
+  width: 28px;
+  height: 28px;
+}
+
+.test2pryam {
+  margin-left: 30px;
+  margin-top: 27px;
+  background: #A7E15C;
+  border-radius: 13px;
+  width: 171px;
+  height: 56px;
+  margin-right: 66px;
+}
+
+.test2section2 {
+  margin-left: 30px;
+}
+.test2section2__fil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  color: #333333;
+  width: 239px;
+  height: 41px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 64px;
+}
+.test2section2__txt {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.test2section2__img {
+  margin-right: 60px;
+}
+.test2section2__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 63px;
+  width: 1150px;
+}
+
+.test2section3 {
+  margin-left: 20px;
+  position: relative;
+}
+.test2section3__b {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.test2section3__img {
+  width: 568px;
+  height: 432px;
+  border-radius: 12px 12px 0px 0px;
+}
+.test2section3__text1 {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  margin-right: 20px;
+  padding-left: 20px;
+  margin-top: -7px;
+}
+.test2section3__text2 {
+  font-family: Manrope;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2D262C;
+  margin-right: 10px;
+  margin-top: -31px;
+}
+.test2section3__text3 {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+  margin-right: 30px;
+  margin-top: -7px;
+}
+.test2section3__text4 {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  margin-right: 15px;
+  margin-top: -12px;
+}
+.test2section3__card {
+  background: #E9FBDF;
+  width: 568px;
+  height: 146px;
+  border-radius: 0px 0px 12px 12px;
+  padding-left: 13.86px;
+}
+.test2section3__card-text1 {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6F6F6F;
+  padding-top: 15px;
+  margin-bottom: 2px;
+}
+.test2section3__card-text2 {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  color: #2D262C;
+}
+.test2section3__card-text3 {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  padding-top: 17px;
+  padding-right: 10px;
+  padding-left: 280px;
+}
+.test2section3__xit {
+  background: rgba(50, 205, 50, 0.8);
+  border-radius: 6px;
+  width: 97px;
+  height: 27px;
+  margin-top: -415px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 0.8;
+  position: absolute;
+  margin-left: 19px;
+  padding-top: 3px;
+}
+.test2section3__novinka {
+  background: #7211D2;
+  border-radius: 6px;
+  width: 81px;
+  height: 27px;
+  margin-top: -415px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 0.6;
+  position: absolute;
+  margin-left: 19px;
+  padding-top: 3px;
+}
+.test2section3__dop {
+  width: 107px;
+  height: 27px;
+  opacity: 0.75;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #010101;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -50px;
+  margin-left: 17px;
+  margin-right: 17px;
+  padding-top: 5px;
+}
+.test2section3__dop1 {
+  width: 172px;
+  height: 27px;
+  opacity: 0.75;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #333333;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 17px;
+  padding-top: 5px;
+}
+.test2section3__dop2 {
+  width: 141px;
+  height: 27px;
+  opacity: 0.75;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #333333;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 17px;
+  padding-top: 5px;
+}
+.test2section3__dop3 {
+  width: 70px;
+  height: 27px;
+  opacity: 0.75;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #333333;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -50px;
+  padding-top: 5px;
+}
+
+.test2__txt {
+  color: #7B7B7B;
+  font-family: Manrope;
+  font-size: 42px;
+  font-weight: 700;
+}
+.test2__txt1 {
+  color: #333333;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.78px;
+  margin-left: 129px;
+  margin-top: 132px;
+}
+.test2__img {
+  width: 670px;
+  height: 462px;
+  border-radius: 12px;
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
